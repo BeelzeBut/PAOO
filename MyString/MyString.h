@@ -12,6 +12,9 @@ public:
     MyString(const MyString& other);
     ~MyString();
     MyString& operator=(const MyString& other);
-    void print() const;
+    const char* getData() const;
     size_t getLength() const;
+    friend std::ostream& operator<<(std::ostream& os, const MyString& str);
 };
+
+//std::ostream& operator<<(std::ostream& os, const MyString& str);

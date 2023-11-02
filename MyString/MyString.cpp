@@ -26,10 +26,15 @@ MyString& MyString::operator=(const MyString& other) {
     return *this;
 }
 
-void MyString::print() const {
-    std::cout << data;
+const char* MyString::getData() const {
+    return data;
 }
 
 size_t MyString::getLength() const {
     return length;
+}
+
+std::ostream& operator<<(std::ostream& os, const MyString& str) {
+    os << str.getData();
+    return os;
 }

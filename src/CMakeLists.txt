@@ -1,3 +1,3 @@
-add_executable(MyStringApp main.cpp)
+add_executable(TemaPAOO main.cpp)
 
-target_link_libraries(MyStringApp MyString)
+target_link_libraries(TemaPAOO MyString Book)

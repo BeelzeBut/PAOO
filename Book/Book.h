@@ -1,16 +1,24 @@
-//
-// Created by Buga Marco on 02.11.2023.
-//
-
-#ifndef TEMAPAOO1_BOOK_H
-#define TEMAPAOO1_BOOK_H
-
-
+#pragma once
+#include "../MyString/MyString.h"
 
 class Book {
+private:
+    MyString title;
+    MyString author;
+    MyString ISBN;
+    MyString status;
 
+public:
+    Book(const char* title, const char* author, const char* ISBN, const char* status = "available");
+    Book(const Book& other);
+
+    Book& operator=(const Book& other);
+
+    MyString getTitle() const;
+    MyString getAuthor() const;
+    MyString getISBN() const;
+    MyString getStatus() const;
+
+    void checkout();
+    void returnBook();
 };
-
-
-
-#endif //TEMAPAOO1_BOOK_H

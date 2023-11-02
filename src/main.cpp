@@ -1,30 +1,35 @@
 #include "../MyString/MyString.h"
+#include "../Book/Book.h"
 #include <iostream>
 
 int main() {
-    // Constructor
-    MyString str1("Hello, World!");
-    std::cout << "str1: ";
-    str1.print();
-    std::cout << std::endl;
+    Book b1("1984", "George Orwell", "978-0451524935");
+    std::cout << "Title: " << b1.getTitle() << std::endl;
+    std::cout << "Author: " << b1.getAuthor() << std::endl;
+    std::cout << "ISBN: " << b1.getISBN() << std::endl;
+    std::cout << "Status: " << b1.getStatus() << std::endl;
+
+    // Checkout
+    std::cout << "\nChecking out the book...\n";
+    b1.checkout();
+    std::cout << "Status: " << b1.getStatus() << std::endl;
+
+    // Return
+    std::cout << "\nReturning the book...\n";
+    b1.returnBook();
+    std::cout << "Status: " << b1.getStatus() << std::endl;
 
     // Copy constructor
-    MyString str2 = str1;
-    std::cout << "str2 (copy of str1): ";
-    str2.print();
-    std::cout << std::endl;
+    Book b2(b1);
+    std::cout << "\nCopied book details:\n";
+    std::cout << "Title: " << b2.getTitle() << std::endl;
+    std::cout << "Author: " << b2.getAuthor() << std::endl;
 
     // Assignment operator
-    MyString str3 = "Assignment Operator";
-    str3 = str1;
-    std::cout << "str3 (assigned from str1): ";
-    str3.print();
-    std::cout << std::endl;
-
-    // getLength function
-    std::cout << "Length of str1: " << str1.getLength() << std::endl;
-    std::cout << "Length of str2: " << str2.getLength() << std::endl;
-    std::cout << "Length of str3: " << str3.getLength() << std::endl;
+    Book b3 = b2;
+    std::cout << "\nAssigned book details:\n";
+    std::cout << "ISBN: " << b3.getISBN() << std::endl;
+    std::cout << "Status: " << b3.getStatus() << std::endl;
 
     return 0;
 }
