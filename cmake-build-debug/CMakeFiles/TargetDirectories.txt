@@ -1,0 +1,3 @@
+/Users/bugamarco/Desktop/LFTC/TemaPAOO1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bugamarco/Desktop/LFTC/TemaPAOO1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bugamarco/Desktop/LFTC/TemaPAOO1/cmake-build-debug/CMakeFiles/TemaPAOO1.dir
