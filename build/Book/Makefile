@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/src//CMakeFiles/progress.marks
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/Book//CMakeFiles/progress.marks
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/TemaPAOO.dir/rule:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TemaPAOO.dir/rule
-.PHONY : src/CMakeFiles/TemaPAOO.dir/rule
+Book/CMakeFiles/Book.dir/rule:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book/CMakeFiles/Book.dir/rule
+.PHONY : Book/CMakeFiles/Book.dir/rule
 
 # Convenience name for target.
-TemaPAOO: src/CMakeFiles/TemaPAOO.dir/rule
-.PHONY : TemaPAOO
+Book: Book/CMakeFiles/Book.dir/rule
+.PHONY : Book
 
 # fast build rule for target.
-TemaPAOO/fast:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/build
-.PHONY : TemaPAOO/fast
+Book/fast:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/build
+.PHONY : Book/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+Book.o: Book.cpp.o
+.PHONY : Book.o
 
 # target to build an object file
-main.cpp.o:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/main.cpp.o
-.PHONY : main.cpp.o
+Book.cpp.o:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/Book.cpp.o
+.PHONY : Book.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Book.i: Book.cpp.i
+.PHONY : Book.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/main.cpp.i
-.PHONY : main.cpp.i
+Book.cpp.i:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/Book.cpp.i
+.PHONY : Book.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Book.s: Book.cpp.s
+.PHONY : Book.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/main.cpp.s
-.PHONY : main.cpp.s
+Book.cpp.s:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/Book.cpp.s
+.PHONY : Book.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... TemaPAOO"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Book"
+	@echo "... Book.o"
+	@echo "... Book.i"
+	@echo "... Book.s"
 .PHONY : help
 
 

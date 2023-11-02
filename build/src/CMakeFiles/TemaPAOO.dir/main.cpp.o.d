@@ -1,4 +1,4 @@
-src/CMakeFiles/MyStringApp.dir/main.cpp.o: \
+src/CMakeFiles/TemaPAOO.dir/main.cpp.o: \
   /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/main.cpp \
   /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../MyString/MyString.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \

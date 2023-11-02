@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyStringApp
+# Target rules for targets named TemaPAOO
 
 # Build rule for target.
-MyStringApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyStringApp
-.PHONY : MyStringApp
+TemaPAOO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TemaPAOO
+.PHONY : TemaPAOO
 
 # fast build rule for target.
-MyStringApp/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MyStringApp.dir/build.make src/CMakeFiles/MyStringApp.dir/build
-.PHONY : MyStringApp/fast
+TemaPAOO/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/build
+.PHONY : TemaPAOO/fast
 
 #=============================================================================
 # Target rules for targets named MyString
@@ -142,6 +142,19 @@ MyString/fast:
 	$(MAKE) $(MAKESILENT) -f MyString/CMakeFiles/MyString.dir/build.make MyString/CMakeFiles/MyString.dir/build
 .PHONY : MyString/fast
 
+#=============================================================================
+# Target rules for targets named Book
+
+# Build rule for target.
+Book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book
+.PHONY : Book
+
+# fast build rule for target.
+Book/fast:
+	$(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/build
+.PHONY : Book/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,8 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Book"
 	@echo "... MyString"
-	@echo "... MyStringApp"
+	@echo "... TemaPAOO"
 .PHONY : help
 
 
