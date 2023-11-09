@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/CMakeLists.txt"
   "/Users/bugamarco/Desktop/LFTC/TemaPAOO1/CMakeLists.txt"
+  "/Users/bugamarco/Desktop/LFTC/TemaPAOO1/DVD/CMakeLists.txt"
   "/Users/bugamarco/Desktop/LFTC/TemaPAOO1/MyString/CMakeLists.txt"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
@@ -49,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MyString/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Book/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "DVD/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -56,4 +58,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/TemaPAOO.dir/DependInfo.cmake"
   "MyString/CMakeFiles/MyString.dir/DependInfo.cmake"
   "Book/CMakeFiles/Book.dir/DependInfo.cmake"
+  "DVD/CMakeFiles/DVD.dir/DependInfo.cmake"
   )

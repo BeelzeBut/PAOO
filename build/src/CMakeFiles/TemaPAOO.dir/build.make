@@ -94,6 +94,7 @@ src/TemaPAOO: src/CMakeFiles/TemaPAOO.dir/main.cpp.o
 src/TemaPAOO: src/CMakeFiles/TemaPAOO.dir/build.make
 src/TemaPAOO: MyString/libMyString.a
 src/TemaPAOO: Book/libBook.a
+src/TemaPAOO: DVD/libDVD.a
 src/TemaPAOO: src/CMakeFiles/TemaPAOO.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TemaPAOO"
 	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TemaPAOO.dir/link.txt --verbose=$(VERBOSE)

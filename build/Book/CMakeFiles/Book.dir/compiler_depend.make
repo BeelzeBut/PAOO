@@ -732,9 +732,9 @@ Book/CMakeFiles/Book.dir/Book.cpp.o: /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Boo
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/ILibraryItem.h \
   /Users/bugamarco/Desktop/LFTC/TemaPAOO1/MyString/MyString.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/Book.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/ILibraryItem.h
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/Book.h
 
 
 /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/Book.h:
@@ -812,6 +812,8 @@ Book/CMakeFiles/Book.dir/Book.cpp.o: /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Boo
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_zero.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_set.h:
+
+/Users/bugamarco/Desktop/LFTC/TemaPAOO1/ILibraryItem.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fd_clr.h:
 
@@ -1170,8 +1172,6 @@ Book/CMakeFiles/Book.dir/Book.cpp.o: /Users/bugamarco/Desktop/LFTC/TemaPAOO1/Boo
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
-/Users/bugamarco/Desktop/LFTC/TemaPAOO1/Book/ILibraryItem.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/construct_at.h:
 

@@ -16,6 +16,8 @@ namespace library {
         return *this;
     }
 
+    Book::Book(Book&& other): title(other.title), author(other.author), ISBN(other.ISBN), status(other.status) {}
+
     MyString Book::getTitle() const { return title; }
 
     MyString Book::getAuthor() const { return author; }

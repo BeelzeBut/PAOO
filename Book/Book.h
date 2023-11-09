@@ -1,6 +1,6 @@
 #pragma once
 #include "../MyString/MyString.h"
-#include "ILibraryItem.h"
+#include "../ILibraryItem.h"
 
 namespace library {
 
@@ -15,6 +15,7 @@ namespace library {
         Book(const char *title, const char *author, const char *ISBN, const char *status = "available");
         Book(const Book &other);
         Book &operator=(const Book &other);
+        Book(Book&& other);
 
         virtual MyString getTitle() const;
         virtual void checkOut();

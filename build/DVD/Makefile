@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/DVD//CMakeFiles/progress.marks
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named TemaPAOO
+# Convenience name for target.
+DVD/CMakeFiles/DVD.dir/rule:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD/CMakeFiles/DVD.dir/rule
+.PHONY : DVD/CMakeFiles/DVD.dir/rule
 
-# Build rule for target.
-TemaPAOO: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TemaPAOO
-.PHONY : TemaPAOO
-
-# fast build rule for target.
-TemaPAOO/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/build
-.PHONY : TemaPAOO/fast
-
-#=============================================================================
-# Target rules for targets named MyString
-
-# Build rule for target.
-MyString: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyString
-.PHONY : MyString
-
-# fast build rule for target.
-MyString/fast:
-	$(MAKE) $(MAKESILENT) -f MyString/CMakeFiles/MyString.dir/build.make MyString/CMakeFiles/MyString.dir/build
-.PHONY : MyString/fast
-
-#=============================================================================
-# Target rules for targets named Book
-
-# Build rule for target.
-Book: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book
-.PHONY : Book
-
-# fast build rule for target.
-Book/fast:
-	$(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/build
-.PHONY : Book/fast
-
-#=============================================================================
-# Target rules for targets named DVD
-
-# Build rule for target.
-DVD: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DVD
+# Convenience name for target.
+DVD: DVD/CMakeFiles/DVD.dir/rule
 .PHONY : DVD
 
 # fast build rule for target.
 DVD/fast:
-	$(MAKE) $(MAKESILENT) -f DVD/CMakeFiles/DVD.dir/build.make DVD/CMakeFiles/DVD.dir/build
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f DVD/CMakeFiles/DVD.dir/build.make DVD/CMakeFiles/DVD.dir/build
 .PHONY : DVD/fast
+
+DVD.o: DVD.cpp.o
+.PHONY : DVD.o
+
+# target to build an object file
+DVD.cpp.o:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f DVD/CMakeFiles/DVD.dir/build.make DVD/CMakeFiles/DVD.dir/DVD.cpp.o
+.PHONY : DVD.cpp.o
+
+DVD.i: DVD.cpp.i
+.PHONY : DVD.i
+
+# target to preprocess a source file
+DVD.cpp.i:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f DVD/CMakeFiles/DVD.dir/build.make DVD/CMakeFiles/DVD.dir/DVD.cpp.i
+.PHONY : DVD.cpp.i
+
+DVD.s: DVD.cpp.s
+.PHONY : DVD.s
+
+# target to generate assembly for a file
+DVD.cpp.s:
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(MAKE) $(MAKESILENT) -f DVD/CMakeFiles/DVD.dir/build.make DVD/CMakeFiles/DVD.dir/DVD.cpp.s
+.PHONY : DVD.cpp.s
 
 # Help Target
 help:
@@ -176,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Book"
 	@echo "... DVD"
-	@echo "... MyString"
-	@echo "... TemaPAOO"
+	@echo "... DVD.o"
+	@echo "... DVD.i"
+	@echo "... DVD.s"
 .PHONY : help
 
 
@@ -191,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/bugamarco/Desktop/LFTC/TemaPAOO1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

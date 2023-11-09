@@ -1,1 +1,1 @@
-add_library(Book Book.cpp Book.h)
+add_library(Book Book.cpp Book.h ../ILibraryItem.h)

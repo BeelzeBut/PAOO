@@ -1,6 +1,7 @@
-src/CMakeFiles/TemaPAOO.dir/main.cpp.o: \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/main.cpp \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../MyString/MyString.h \
+DVD/CMakeFiles/DVD.dir/DVD.cpp.o: \
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/DVD/DVD.cpp \
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/DVD/DVD.h \
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/DVD/../MyString/MyString.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -731,9 +732,4 @@ src/CMakeFiles/TemaPAOO.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/Book.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/../MyString/MyString.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/../ILibraryItem.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../DVD/DVD.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../DVD/../MyString/MyString.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../DVD/../ILibraryItem.h
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/DVD/../ILibraryItem.h
