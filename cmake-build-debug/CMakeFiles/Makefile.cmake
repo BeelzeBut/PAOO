@@ -98,10 +98,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Darwin.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/ProcessorCount.cmake"
+  "../Book/CMakeLists.txt"
   "../CMakeLists.txt"
+  "../MyString/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -118,9 +121,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "MyString/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Book/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/TemaPAOO1.dir/DependInfo.cmake"
+  "src/CMakeFiles/TemaPAOO.dir/DependInfo.cmake"
+  "MyString/CMakeFiles/MyString.dir/DependInfo.cmake"
+  "Book/CMakeFiles/Book.dir/DependInfo.cmake"
   )

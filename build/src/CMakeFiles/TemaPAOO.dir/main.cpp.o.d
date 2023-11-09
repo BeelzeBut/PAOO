@@ -732,4 +732,5 @@ src/CMakeFiles/TemaPAOO.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/Book.h \
-  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/../MyString/MyString.h
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/../MyString/MyString.h \
+  /Users/bugamarco/Desktop/LFTC/TemaPAOO1/src/../Book/ILibraryItem.h

@@ -157,7 +157,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TemaPAOO1
+CMAKE_PROJECT_NAME:STATIC=TemaPAOO
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -225,10 +225,10 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-TemaPAOO1_BINARY_DIR:STATIC=/Users/bugamarco/Desktop/LFTC/TemaPAOO1/cmake-build-debug
+TemaPAOO_BINARY_DIR:STATIC=/Users/bugamarco/Desktop/LFTC/TemaPAOO1/cmake-build-debug
 
 //Value Computed by CMake
-TemaPAOO1_SOURCE_DIR:STATIC=/Users/bugamarco/Desktop/LFTC/TemaPAOO1
+TemaPAOO_SOURCE_DIR:STATIC=/Users/bugamarco/Desktop/LFTC/TemaPAOO1
 
 
 ########################
@@ -333,7 +333,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,6 +1,7 @@
 #include "../MyString/MyString.h"
 #include "../Book/Book.h"
 #include <iostream>
+using namespace library;
 
 int main() {
     Book b1("1984", "George Orwell", "978-0451524935");
@@ -11,12 +12,12 @@ int main() {
 
     // Checkout
     std::cout << "\nChecking out the book...\n";
-    b1.checkout();
+    b1.checkOut();
     std::cout << "Status: " << b1.getStatus() << std::endl;
 
     // Return
     std::cout << "\nReturning the book...\n";
-    b1.returnBook();
+    b1.returnItem();
     std::cout << "Status: " << b1.getStatus() << std::endl;
 
     // Copy constructor

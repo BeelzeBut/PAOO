@@ -131,44 +131,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TemaPAOO1
+# Target rules for targets named TemaPAOO
 
 # Build rule for target.
-TemaPAOO1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TemaPAOO1
-.PHONY : TemaPAOO1
+TemaPAOO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TemaPAOO
+.PHONY : TemaPAOO
 
 # fast build rule for target.
-TemaPAOO1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemaPAOO1.dir/build.make CMakeFiles/TemaPAOO1.dir/build
-.PHONY : TemaPAOO1/fast
+TemaPAOO/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TemaPAOO.dir/build.make src/CMakeFiles/TemaPAOO.dir/build
+.PHONY : TemaPAOO/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named MyString
 
-.PHONY : main.o
+# Build rule for target.
+MyString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyString
+.PHONY : MyString
 
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemaPAOO1.dir/build.make CMakeFiles/TemaPAOO1.dir/main.cpp.o
-.PHONY : main.cpp.o
+# fast build rule for target.
+MyString/fast:
+	$(MAKE) $(MAKESILENT) -f MyString/CMakeFiles/MyString.dir/build.make MyString/CMakeFiles/MyString.dir/build
+.PHONY : MyString/fast
 
-main.i: main.cpp.i
+#=============================================================================
+# Target rules for targets named Book
 
-.PHONY : main.i
+# Build rule for target.
+Book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Book
+.PHONY : Book
 
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemaPAOO1.dir/build.make CMakeFiles/TemaPAOO1.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TemaPAOO1.dir/build.make CMakeFiles/TemaPAOO1.dir/main.cpp.s
-.PHONY : main.cpp.s
+# fast build rule for target.
+Book/fast:
+	$(MAKE) $(MAKESILENT) -f Book/CMakeFiles/Book.dir/build.make Book/CMakeFiles/Book.dir/build
+.PHONY : Book/fast
 
 # Help Target
 help:
@@ -178,10 +177,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... TemaPAOO1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Book"
+	@echo "... MyString"
+	@echo "... TemaPAOO"
 .PHONY : help
 
 

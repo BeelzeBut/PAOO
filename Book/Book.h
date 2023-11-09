@@ -1,24 +1,27 @@
 #pragma once
 #include "../MyString/MyString.h"
+#include "ILibraryItem.h"
 
-class Book {
-private:
-    MyString title;
-    MyString author;
-    MyString ISBN;
-    MyString status;
+namespace library {
 
-public:
-    Book(const char* title, const char* author, const char* ISBN, const char* status = "available");
-    Book(const Book& other);
+    class Book : public ILibraryItem {
+    private:
+        MyString title;
+        MyString author;
+        MyString ISBN;
+        MyString status;
 
-    Book& operator=(const Book& other);
+    public:
+        Book(const char *title, const char *author, const char *ISBN, const char *status = "available");
+        Book(const Book &other);
+        Book &operator=(const Book &other);
 
-    MyString getTitle() const;
-    MyString getAuthor() const;
-    MyString getISBN() const;
-    MyString getStatus() const;
+        virtual MyString getTitle() const;
+        virtual void checkOut();
+        virtual void returnItem();
 
-    void checkout();
-    void returnBook();
-};
+        MyString getAuthor() const;
+        MyString getISBN() const;
+        MyString getStatus() const;
+    };
+}
